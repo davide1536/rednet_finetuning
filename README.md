@@ -17,7 +17,8 @@ augmentations
  
 # Results
 
-![Alt](/results/svm_total_plm.png)
+![Alt](/img/rednet_no_people(1).png)
+![Alt](/img/rednet_people.png)
 Output provided by the not fine-tuned RedNet (top) and the output provided by the fine-tuned RedNet(bottom). As we can notice the not fine-tuned RedNet is not able to recognize correctly the class person by assigning multiple classes to it.
 
 To test how good was the fine-tuned, I measure the general accuracy of the network on all the classe(is the network still able to recognize all the objects?) and the accuracy of the network on only the new class person (has the network learnt the new class?).
